@@ -11,9 +11,14 @@
       </style>
       <link rel="stylesheet" href="https://nammuneema.github.io/Diwali-Template/assets/css/style.css">
       <title>Happy Diwali</title>
+      
   </head>
   <body>
-  <div class="main">
+  <div id="overlay">
+
+      <img class="loader" src="https://nammuneema.github.io/Diwali-Template/assets/images/Eclipse.svg" alt="Loading" />
+  </div>
+  <div class="main" id="main" style="display: none;">
     
     <div class="wishes" id="particles-container">
         <h1 class="header jello" style="position: absolute; top:60px">
@@ -31,6 +36,12 @@
   </div>
   <script src="assets/js/jquery-3.3.1.js">
   </script>
+  <script>
+  $(window).on("load", function(){
+      $('#overlay').fadeOut();
+      $('#main').show();
+   });
+   </script>
   <!-- <script src="assets/js/tilt.js"></script> -->
   <script src="assets/js/particles.js"></script>
   <script src="https://nammuneema.github.io/Diwali-Template/assets/js/app.js"></script>

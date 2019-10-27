@@ -53,6 +53,21 @@ body{
   padding: 100px;
   
 }
+#overlay{
+  position: fixed;
+  top:0;
+  bottom: 0;
+  left:0;
+  right:0;
+  background-color: #09091A;
+}
+.loader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .appleFooter a {color:#9d9da3 !important;text-decoration:none !important;}
           body {background-color:#09091A; color:#1fb9d5; font-family: 'Lato', sans-serif;}
     h1.header {
