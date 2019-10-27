@@ -1,5 +1,5 @@
 $(document).ready( ()=> {
-    particlesJS.load('particles-container', '../assets/json/particles.json', function() {
+    particlesJS.load('particles-container', 'https://nammuneema.github.io/Diwali-Template/assets/json/particles.json', function() {
         console.log('callback - particles.js config loaded');
       });
       const getParameterByName = (name, url) => {
